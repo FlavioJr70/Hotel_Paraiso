@@ -223,25 +223,76 @@ header li:last-child{
     padding: 100px 50px;
 }
 .newslatter h3{
-    color: #191c03;
-    font-size: 2rem;
+    color: gold;
+    font-size: 3rem;
     margin-bottom: 35px;
     text-align: center;
 }
 .newslatter p{
     text-align: center;
-    color: #191c03;
+    color: gold;
     max-width: 800px;
     margin-bottom: 35px;
 } 
 .newslatter button{
-    border-radius: 2px;
-    opacity: 0.9;
+    padding: 15px;
+    background-color: goldenrod;
+    color: #191c03;
     text-transform: uppercase;
-    background-color: rgba(211, 201, 201, 0.644);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 .newslatter button:hover{
-
     cursor: pointer;
-    opacity: 2;
+    opacity: 4;
+}
+.newslatter form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 800px;
+}
+.newslatter input{
+    padding: 15px;
+    border: 1px solid;
+    color: #191c03;
+    border-radius: 4px;
+    margin-right: 15px;
+    flex: 1;
+}
+@media(
+    max-width: 700px
+){
+    .newslatter input{
+        flex-basis: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #191c03;
+    padding: 50px 50px;
+    align-items: center;
+}
+footer ul{
+    display: flex;
+    margin-bottom: 25px;
+}
+footer ul li{
+    margin-right: 10px;
+}
+footer ul li:last-child{
+    margin-right: 0;
+}
+footer ul li a{
+    color: cadetblue;
+    font-size: 2rem;
+}
+footer p{
+    color: burlywood;
 }
