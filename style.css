@@ -106,3 +106,142 @@ header li:last-child{
         font-size: 1.5rem;
     }
 }
+
+.conheça-o-hotel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+.conheça-o-hotel h3{
+    color: #191c03;
+    font-size: 2rem;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.conheça-o-hotel p{
+    text-align: center;
+    color: #191c03;
+    max-width: 800px;
+    margin-bottom: 35px;
+}
+.conheça-o-hotel hr{
+    width: 200px;
+    height: 2px;
+    margin-bottom: 70px;
+    color: #191c03;
+    border: none;
+}
+.conheça-o-hotel .grid{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.conheça-o-hotel .grid li{
+    height: 350px;
+    padding: 20px;
+    border-radius: 4px;
+    background-clip: content-box;
+    background-size: cover;
+    position: center;
+}
+.conheça-o-hotel .grid li.small{
+    flex-basis: 40%;
+}
+.conheça-o-hotel .grid li.large{
+    flex-basis: 60%;
+}
+@media(
+    max-width: 700px
+){
+    .conheça-o-hotel .grid li.small,.conheça-o-hotel .grid li.large{
+        flex-basis: 100%;
+    }
+}
+.caracteristicas{
+    background-color: #191c03;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+.caracteristicas h3{
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.caracteristicas h4{
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 35px;
+    text-align: center;
+    padding-top: 20px;
+}
+.caracteristicas p{
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    max-width: 800px;
+    margin-bottom: 35px;
+}
+.caracteristicas hr{
+    width: 200px;
+    height: 2px;
+    margin-bottom: 70px;
+    color: #191c03;
+    border: none;
+}
+.caracteristicas .grid{
+    width: 100%;
+    display: flex;
+    
+}
+.caracteristicas .grid li{
+    height: 350px;
+    padding: 0 30px;
+    border-radius: 4px;
+    text-align: center;
+    background-clip: content-box;
+    background-size: cover;
+    position: center;
+}
+@media(
+    max-width: 700px
+){
+    .caracteristicas .grid{
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+}
+
+.newslatter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+.newslatter h3{
+    color: #191c03;
+    font-size: 2rem;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.newslatter p{
+    text-align: center;
+    color: #191c03;
+    max-width: 800px;
+    margin-bottom: 35px;
+} 
+.newslatter button{
+    border-radius: 2px;
+    opacity: 0.9;
+    text-transform: uppercase;
+    background-color: rgba(211, 201, 201, 0.644);
+}
+.newslatter button:hover{
+
+    cursor: pointer;
+    opacity: 2;
+}
